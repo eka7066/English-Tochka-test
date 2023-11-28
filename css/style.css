@@ -3,24 +3,7 @@ html, body {
 	padding: 0;
     scroll-behavior: smooth;
 }
-@font-face {
-    font-family: Helvetica; 
-    src: url(../fonts/HelveticaNeue/HelveticaNeueCyr-Medium.ttf); 
-    font-style: normal;
-    font-weight: normal;
-}
-@font-face {
-    font-family: Museo; 
-    src: url(../fonts/Museo/MuseoSansCyrl-300.ttf); 
-    font-style: normal;
-    font-weight: normal;
-}
-@font-face {
-    font-family: Bebas; 
-    src: url(../fonts/bebasneue/bebasneuebold.ttf); 
-    font-style: normal;
-    font-weight: 400; 
-}
+
 body {
     background: url("../img/wp1.jpg") no-repeat;
     background-size: 100% auto;  
@@ -323,6 +306,9 @@ ul > li:before {
    .intro {
     min-height: 1400px;
    }
+   .courses {
+    margin-top: 35%;
+}
    
 }
 @media all and (max-width: 912px){
@@ -652,3 +638,22 @@ ul > li:before {
         top: 60%;
     }
  }
+
+ @font-face {
+    font-family: Helvetica; 
+    src: url(../fonts/HelveticaNeue/HelveticaNeueCyr-Medium.ttf) format("truetype"); 
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: Museo; 
+    src: url(../fonts/Museo/MuseoSansCyrl-300.ttf) format("truetype"); 
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: Bebas; 
+    src: url(../fonts/bebasneue/bebasneuebold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400; 
+}
